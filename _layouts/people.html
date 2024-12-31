@@ -1,0 +1,39 @@
+---
+layout: default
+---
+<div style="color: #fff">
+
+<!---
+    <h1 class="site-title">{{ page.name }}</h1>  
+--->
+    {% if page.picture %}
+    <img class="author-profile-image" src="{{ page.picture }}" alt="{{ page.name }}" width=auto height=150#pic-right /img>
+    {% endif %}
+
+    <div class="author-name">{{ page.name }}</div>  
+    <div>&nbsp;</div>
+    {% if page.degree %}
+    <div class="author-degree">{{ page.degree }}</div>  
+    {% endif %}
+    {% if page.time %}
+    <div class="author-time">{{ page.time }}</div>  
+    {% endif %}
+<!---    {% if page.location %}
+    <div class="author-location">所在地区：{{ page.location }}<br></div>  
+    {% endif %}
+--->
+    {{ content }}
+
+
+<h2 style="color: #fff">Recent Preprints & Lectures</h2>
+<ul>
+    {% assign pre_posts = site.posts | where: 'author', page.short_name %}
+    {% for post in pre_posts %}
+       {% if post.categories contains 'Preprints' %}
+       <li><a href="{{ post.weburl }}">{{ post.title }}</a></li>
+       {% else %}
+       <li style="color: #fff">{{ post.date|date:"%Y-%m-%d"}} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+       {% endif %}
+    {% endfor %}
+</ul>
+</div>

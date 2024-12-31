@@ -1,0 +1,70 @@
+<div>
+
+    
+
+    <div style="display: flex;">&nbsp;
+
+        <div>
+            
+            <!---->
+            
+            
+        </div>
+
+        <ul class="post-list" style="margin-left: 20px;flex:1">
+            
+
+        </ul>
+    </div>
+</div>
+
+<script>
+    window.addEventListener('DOMContentLoaded', (event) => {
+        var urlParams = new URLSearchParams(window.location.search);
+        var year = urlParams.get('year');
+        var posts = document.querySelectorAll('.post-item');
+        var years = document.querySelectorAll('a[href^="?year="]');
+        years.forEach(function (yearElement) {
+            var yearInHref = yearElement.getAttribute('href').split('=')[1];
+            if (yearInHref === year) {
+                yearElement.classList.add('active-year');
+            } else {
+                yearElement.classList.remove('active-year');
+            }
+        });
+        posts.forEach(function (post) {
+            var postYear = post.getAttribute('data-year');
+            if (year === null || postYear === year) {
+                post.style.display = 'block';
+            } else {
+                post.style.display = 'none';
+            }
+        });
+
+        years.forEach(function (yearElement) {
+            yearElement.addEventListener('click', function (event) {
+                event.preventDefault();
+                if (yearElement.classList.contains('active-year')) {
+                    yearElement.classList.remove('active-year');
+                    posts.forEach(function (post) {
+                        post.style.display = 'block';
+                    });
+                } else {
+                    years.forEach(function (otherYearElement) {
+                        otherYearElement.classList.remove('active-year');
+                    });
+                    yearElement.classList.add('active-year');
+                    var yearInHref = yearElement.getAttribute('href').split('=')[1];
+                    posts.forEach(function (post) {
+                        var postYear = post.getAttribute('data-year');
+                        if (postYear === yearInHref) {
+                            post.style.display = 'block';
+                        } else {
+                            post.style.display = 'none';
+                        }
+                    });
+                }
+            });
+        });
+    });
+</script>

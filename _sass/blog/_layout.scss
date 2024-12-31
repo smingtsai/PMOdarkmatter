@@ -1,0 +1,327 @@
+body{
+  background: #222;
+}
+
+/**
+ * Site header
+ */
+.site-header {
+  //border-bottom: 1px solid $grey-color-light;
+  box-shadow: 0 0 5px $grey-color-light;
+  min-height: $spacing-unit * 1.865;
+
+  // Positioning context for the mobile navigation icon
+  position: relative;
+}
+
+.site-title {
+  @include relative-font-size(1.4);
+  font-weight: 300;
+  line-height: $base-line-height * $base-font-size * 2.25;
+  letter-spacing: -1px;
+  margin-bottom: 0;
+  float: left;
+  text-decoration: none;
+
+  &,
+  &:visited,
+  &:hover {
+    color: $text-color;
+    text-decoration: none;
+  }
+}
+
+.site-nav {
+  float: right;
+  line-height: $base-line-height * $base-font-size * 2.25;
+
+  .nav-trigger {
+    display: none;
+  }
+
+  .menu-icon {
+    display: none;
+  }
+
+  .page-link {
+    color: $text-color;
+    line-height: $base-line-height;
+
+    // Gaps between nav items, but not on the last one
+    &:not(:last-child) {
+      margin-right: 20px;
+    }
+  }
+
+  @include media-query($on-palm) {
+    position: absolute;
+    top: 9px;
+    right: $spacing-unit / 2;
+    //background-color: $background-color;
+    background: #1a1a1a;
+    border: 1px solid $grey-color-light;
+    border-radius: 5px;
+    text-align: right;
+    z-index: 9999;
+
+
+    label[for="nav-trigger"] {
+      display: block;
+      float: right;
+      width: 36px;
+      height: 36px;
+      z-index: 2;
+      cursor: pointer;
+    }
+
+    .menu-icon {
+      display: block;
+      float: right;
+      width: 36px;
+      height: 26px;
+      line-height: 0;
+      padding-top: 10px;
+      text-align: center;
+
+      > svg path {
+        fill: $grey-color-dark;
+      }
+    }
+
+    input ~ .trigger {
+      clear: both;
+      display: none;
+    }
+
+    input:checked ~ .trigger {
+      display: block;
+      padding-bottom: 5px;
+    }
+
+    .trigger {
+      padding-top: 20px;
+    }
+    .page-link {
+      display: block;
+      padding: 10px 10px;
+
+      &:last-child {
+        margin-bottom: 10px;
+        margin-right: 20px;
+      }
+
+      margin-right: 10px;
+      margin-left: 10px;
+    }
+
+  }
+}
+
+/*
+* 首页静态展示
+*/
+.home-static {
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+
+  .m-logo {
+    display: none;
+  }
+
+  .item-left {
+    .p1 {
+      margin: 0;
+      line-height: 40px;
+      font-size: 32px;
+      font-weight: bold;
+      color: #fff
+    }
+
+    .p2 {
+      margin: 15px 0 0 0;
+      line-height: 30px;
+      font-size: 16px;
+      color: #fff
+    }
+  }
+
+  .item-right {
+    //flex: 0 0 440px;
+    //height: 250px;
+    margin-left: 30px;
+
+    img {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+
+/**
+ * Post list
+ */
+.post-list {
+  margin-left: 0;
+  list-style: none;
+  padding-left: 0 !important;
+  color: #ffffff;
+
+  > li {
+    margin-bottom: $spacing-unit * 1;
+    //box-shadow: 0 0 5px #0000001A;
+    border: 1px solid #e1e1e1;
+    padding: 15px;
+    border-radius: 10px
+  }
+
+  > li > h2 {
+    margin-top: 0rem;
+    margin-bottom: 0.4rem;
+  }
+
+  > li > p {
+    margin-top: 0rem;
+  }
+}
+
+#archives {
+  display: flex;
+
+  .archive-group {
+    border: 1px solid #e1e1e1;
+    flex: 1;
+    border-radius: 10px;
+    padding: 0 25px 15px 25px;
+    margin-left: 20px;
+
+    .category-head {
+      display: flex;
+      align-items: center;
+      border-bottom: 1px solid #e1e1e1;
+      padding-bottom: 10px;
+      color: #ffffff;
+
+      div {
+        font-size: 24px;
+        font-weight: bold;
+        margin-top: 0 !important;
+      }
+
+      a {
+        display: block;
+        margin-left: auto;
+        font-size: 16px;
+      }
+    }
+
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+
+}
+
+@include media-query($on-palm) {
+  .post-list {
+    -webkit-margin-end: 10px;
+    -webkit-padding-start: 10px;
+  }
+}
+
+.post-meta {
+  font-size: $small-font-size;
+  color: $grey-color;
+}
+
+.post-link {
+  display: block;
+  @include relative-font-size(1.5);
+}
+
+
+//作者列表
+.custom-author-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+
+  .custom-author-list-item {
+    display: block;
+    flex: 0 0 25%;
+    text-align: center;
+    text-decoration: none;
+
+    .item-image {
+      display: block;
+      width: 125px;
+      height: 125px;
+      margin: 0 auto;
+      border-radius: 50%;
+    }
+
+    .item-name {
+      margin-top: 10px;
+      margin-bottom: 10px;
+      color: #ffffff;
+    }
+
+    .item-position {
+      font-size: 16px;
+    }
+
+    .item-text {
+      line-height: 25px;
+      font-size: 14px;
+      color: #999;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .home-static {
+    margin-bottom: 30px;
+    display: block;
+
+    .m-logo {
+      display: block !important;
+
+      img {
+        display: block;
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto 30px auto;
+      }
+    }
+
+    .item-right {
+      display: none !important;
+    }
+  }
+
+  #archives {
+    display: block !important;
+
+    .archive-group {
+      flex: 0 0 100% !important;
+      margin: 0 0 20px 0;
+    }
+  }
+
+  .custom-author-list {
+
+
+    .custom-author-list-item {
+      flex: 0 0 100%;
+    }
+  }
+}
+
+article{
+  color: #ffffff!important;
+  h1,h2,h3,h4,h5,h6{
+    color: #ffffff!important;
+  }
+}
