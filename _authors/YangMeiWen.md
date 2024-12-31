@@ -4,7 +4,7 @@ name: Mei-Wen Yang
 position: Student
 location: China
 layout: people
-picture: /slurm/assets/authors/moren-woman_p.jpg
+picture: /PMOdarkmatter/assets/authors/moren-woman_p.jpg
 short_name: Mei-Wen Yang
 time: 2023.09~
 degree: Master

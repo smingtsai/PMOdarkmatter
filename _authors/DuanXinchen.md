@@ -4,7 +4,7 @@ name: Xin-Chen Duan
 position: Student
 location: China
 layout: people
-picture: /slurm/assets/authors/moren-woman_p.jpg
+picture: /PMOdarkmatter/assets/authors/moren-woman_p.jpg
 short_name: Xin-Chen Duan
 time: 2022.09~
 degree: PhD
