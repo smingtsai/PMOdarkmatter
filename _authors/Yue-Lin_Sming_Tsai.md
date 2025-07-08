@@ -13,4 +13,4 @@ My research focuses on the phenomenology of dark matter, where I merge theoretic
 
 My   CV : [Y_L_S_TSAI_CV.pdf](https://pan.cstcloud.cn/web/view_iframe.html?fid=1596400689217554&shareId=VXSlt1JdTMo)
 
-中文履历: [请点击此处](https://dslx.ustc.edu.cn/?menu=expert_paper_detail&expertid=6566523)
+招生资讯: [请点击此处](https://dslx.ustc.edu.cn/?menu=expert_paper_detail&expertid=6566523)
