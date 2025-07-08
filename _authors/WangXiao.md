@@ -4,10 +4,10 @@ name: Xiao Wang
 position: Student
 location: China
 layout: people
-picture: /PMOdarkmatter/assets/authors/moren-man_p.jpg
+picture: /PMOdarkmatter/assets/authors/wangxiao.jpg
 short_name: Xiao Wang
 time: 2023.09~
 degree: Master
 ---
 
-Searching Dark Matter from Cosmic ray data
+Xiao Wang mainly engage in research in the field of astroparticle physics, focusing on cosmic rays. His current main interest is to search signals of dark matter from cosmic ray data.
