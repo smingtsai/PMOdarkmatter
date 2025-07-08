@@ -10,4 +10,4 @@ time: 2023.09~
 degree: PhD
 ---
 
-Xiao Wang mainly engages in research in the field of astroparticle physics, focusing on cosmic rays. His current main interest is to search signals of dark matter from cosmic ray data.
+Xiao Wang mainly engages in the field of astroparticle physics, focusing on cosmic rays. His current main interest is to study possible signals of dark matter from cosmic ray data.
