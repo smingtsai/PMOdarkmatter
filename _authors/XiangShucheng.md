@@ -25,5 +25,5 @@ of Science and Technology of China
 Testing Dark Matter and Subhalo Models Using Image Anomalies : Analyzing strong lens
 systems to constrain the nature of dark matter through deviations from expected image
 configurations (by calculating ).
-### Contact
-Email : physicsx20@mail.ustc.edu.cn or scxiang@pmo.ac.cn
+## Contact
+Email : physicsx20_at_mail.ustc.edu.cn or scxiang_at_pmo.ac.cn
