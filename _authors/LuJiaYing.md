@@ -6,7 +6,7 @@ location: China
 layout: people
 picture: /PMOdarkmatter/assets/authors/lujiaying.jpg
 short_name: JiaYing Lu
-time: 2021.09~
+time: 2025~
 degree: PhD
 ---
 

@@ -6,7 +6,7 @@ location: China
 layout: people
 picture: /PMOdarkmatter/assets/authors/wangzhenglong.jpg
 short_name: ZhengLong Wang
-time: 2021.09~
+time: 2024~
 degree: PhD
 ---
 
