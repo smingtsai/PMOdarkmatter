@@ -10,7 +10,7 @@ time: 2024.09~
 degree: Master
 ---
 
-<font size="8">Research Interests</font>
+<font size="6">Research Interests</font>
 
 I specialize in gravitational lensing and its applications to probing the nature and distribution of dark matter.
 
@@ -18,7 +18,7 @@ Now, focus on developing lensing‐based diagnostics for distinguishing between 
 
 In the future, I want to explore combining N-body simulations with gravitational lensing techniques to study the properties of dark matter more effectively. Furthermore, I Exploring the application of deep learning and AI for expanding related research.
 
-<font size="8">Education</font>
+<font size="6">Education</font>
 
 2020 ~ 2024 : Bachelor in Astronomy，University of Science and Technology of China
 
