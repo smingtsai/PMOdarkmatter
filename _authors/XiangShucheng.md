@@ -25,12 +25,12 @@ In the future, I want to explore combining N-body simulations with gravitational
 2024 ~ : Master's degree candidate in Astrophysics, Purple Mountain Observatory/University
 of Science and Technology of China
 
-<font size="8">Current Projects</font>
+<font size="6">Current Projects</font>
 
 Testing Dark Matter and Subhalo Models Using Image Anomalies : Analyzing strong lens
 systems to constrain the nature of dark matter through deviations from expected image
 configurations (by calculating ).
 
-<font size="8">Contact</font>
+<font size="6">Contact</font>
 
 Email : physicsx20_at_mail.ustc.edu.cn or scxiang_at_pmo.ac.cn
