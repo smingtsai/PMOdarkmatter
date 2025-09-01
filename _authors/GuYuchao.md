@@ -1,7 +1,7 @@
 ---
 username: 顾玉超
 name: Yu-Chao Gu
-position: Postdoc
+position: Former
 location: China
 layout: people
 picture: /PMOdarkmatter/assets/authors/moren-man_p.jpg
