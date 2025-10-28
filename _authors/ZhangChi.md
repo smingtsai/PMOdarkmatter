@@ -1,5 +1,5 @@
 ---
-username: 张驰
+username: 张弛
 name: Chi Zhang
 position: Student
 location: China
