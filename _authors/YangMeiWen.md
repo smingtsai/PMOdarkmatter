@@ -1,14 +1,13 @@
 ---
 username: 杨美文
-name: Mei-Wen Yang
+name: Meiwen Yang
 position: Student
 location: China
 layout: people
-picture: /PMOdarkmatter/assets/authors/moren-woman_p.jpg
+picture: /PMOdarkmatter/assets/authors/MeiwenYang.jpg
 short_name: Mei-Wen Yang
 time: 2023.09~
 degree: Master
 ---
 
-Particle physics
-Dark matter velocity near the halo
+Astroparticle physics, and dark matter cosmology
