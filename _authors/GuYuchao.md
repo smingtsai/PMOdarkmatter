@@ -9,4 +9,5 @@ short_name: Yu-Chao Gu
 time: 2023.07~2025.08
 ---
 
-Particle physics, Axion astrophysics
+Former postdoc. 
+Was working in particle physics, and Axion astrophysics.
