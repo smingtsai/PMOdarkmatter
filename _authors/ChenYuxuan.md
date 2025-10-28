@@ -10,4 +10,4 @@ time: 2020.09~2025.10
 degree: PhD
 ---
 Former PhD student.
-The title of PhD thesis: "Indirect Detection of Long-Lived Dark Particles in Stars"
+The title of PhD thesis is: "Indirect Detection of Long-Lived Dark Particles in Stars"
