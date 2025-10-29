@@ -5,7 +5,7 @@ position: Student
 location: China
 layout: people
 picture: /PMOdarkmatter/assets/authors/MeiwenYang.jpg
-short_name: Mei-Wen Yang
+short_name: Meiwen Yang
 time: 2023.09~
 degree: Master
 ---
