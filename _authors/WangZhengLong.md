@@ -1,6 +1,6 @@
 ---
 username: 王政龙
-name: ZhengLong Wang
+name: Zheng-long Wang
 position: Student
 location: China
 layout: people
