@@ -5,7 +5,7 @@ position: Student
 location: China
 layout: people
 picture: /PMOdarkmatter/assets/authors/wangzhenglong.jpg
-short_name: ZhengLong Wang
+short_name: Zheng-long Wang
 time: 2024~
 degree: PhD
 ---
