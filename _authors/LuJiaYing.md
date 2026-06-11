@@ -7,7 +7,7 @@ layout: people
 picture: /PMOdarkmatter/assets/authors/lujiaying.jpg
 short_name: JiaYing Lu
 time: 2025~
-degree: PhD
+degree: Master
 ---
 
 Lu Jiaying begins her Master's studies at the Purple Mountain Observatory in September 2025,

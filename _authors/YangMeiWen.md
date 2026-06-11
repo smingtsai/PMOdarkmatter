@@ -7,7 +7,7 @@ layout: people
 picture: /PMOdarkmatter/assets/authors/MeiwenYang.jpg
 short_name: Meiwen Yang
 time: 2023.09~
-degree: Master
+degree: PhD
 ---
 
 Astroparticle physics, and dark matter cosmology

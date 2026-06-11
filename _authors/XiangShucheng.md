@@ -1,12 +1,12 @@
 ---
 username: 项树诚
 name: Shu-Cheng Xiang
-position: Student
+position: Former
 location: China
 layout: people
 picture: /PMOdarkmatter/assets/authors/xiangshucheng.jpg
 short_name: Shu-Cheng Xiang
-time: 2024.09~
+time: 2024.09~2026.07
 degree: Master
 ---
 
