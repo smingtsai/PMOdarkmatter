@@ -7,6 +7,7 @@ layout: people
 picture: /PMOdarkmatter/assets/authors/wangyuning.jpg
 short_name: Yu-Ning Wang
 degree: PhD
+time: 2023.09~
 ---
 
 Yu-Ning Wang joined Purple Mountain Observatory in 2023 as a graduate student. Her research aims to decode signatures of dark matter within cosmic evolution history.
